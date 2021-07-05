@@ -5,4 +5,4 @@ python train.py --weights /apdcephfs/private_luxiferchen/Tencent_WWF/weights/yol
 --cache \
 --name single-test \
 --project /apdcephfs/private_luxiferchen/Tencent_WWF/training_projects/ \
---hyp /apdcephfs/private_luxiferchen/Tencent_WWF/yolov5/data/hyps/hyp.scratch.yaml
+--hyp /apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/data/hyps/hyp.scratch.yaml
