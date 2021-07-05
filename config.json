@@ -5,7 +5,7 @@
     "host_num": 1,
     "host_gpu_num": 1,
     "cuda_version": "11.0",
-    "start_cmd":"/apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/start.sh",
+    "start_cmd":"sh /apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/start.sh",
     "image_full_name": "mirrors.tencent.com/luxiferchen/tlinux2.2-python3.8-torch1.7.1-cuda11.0:nowandb",
     "GPUName": "V100"
 }
