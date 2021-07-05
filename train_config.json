@@ -1,10 +1,10 @@
 {
     "Token":"gGO2WbsQRLWkWpadjT74gw",
     "business_flag": "TEG_AILab_CVC_chongqing",
-    "model_local_file_path": "/apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/",
+    "model_local_file_path": "/apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance",
     "host_num": 1,
     "host_gpu_num": 1,
-    "task_flag":"single-b32-ep120-1231-5s6-7",
+    "readable_name":"single-b32-ep120-1231-5s6-8",
     "cuda_version": "11.0",
     "image_full_name": "mirrors.tencent.com/luxiferchen/tlinux2.2-python3.8-torch1.7.1-cuda11.0:nowandb",
     "start_cmd": "/apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/train_start.sh",
