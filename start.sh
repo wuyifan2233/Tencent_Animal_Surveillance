@@ -1,5 +1,5 @@
 python train.py --weights /apdcephfs/private_luxiferchen/Tencent_WWF/weights/yolov5s.pt \
---batch 64 \
+--batch 32 \
 --epochs 120 \
 --img-size 640 \
 --data /apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/configs/top23-p123-p1.yaml \
