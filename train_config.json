@@ -6,7 +6,7 @@
     "host_gpu_num": 1,
     "readable_name":"single-b32-ep120-1231-5s6-8",
     "cuda_version": "11.0",
-    "image_full_name": "mirrors.tencent.com/luxiferchen/tlinux2.2-python3.8-torch1.7.1-cuda11.0:nowandb",
+    "image_full_name": "mirrors.tencent.com/yanbofan/yolov5-torch1.7:01",
     "start_cmd": "/apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/train_start.sh",
     "GPUName": "V100"
 }
