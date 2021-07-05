@@ -7,5 +7,7 @@ python -m torch.distributed.launch --nproc_per_node 8 train.py \
 --data /apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/configs/top23-p123-p1.yaml \
 --cache \
 --name multi-test \
+--sync-bn \
 --project /apdcephfs/private_luxiferchen/Tencent_WWF/multi_training_projects/ \
---hyp /apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/data/hyps/hyp.scratch.yaml
+--hyp /apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/data/hyps/hyp.scratch.yaml \
+--device 0,1,2,3,4,5,6,7

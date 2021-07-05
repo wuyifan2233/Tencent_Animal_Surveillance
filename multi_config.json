@@ -5,8 +5,7 @@
     "host_num": 1,
     "host_gpu_num": 8,
     "cuda_version": "11.0",
-    "task_flag":"multi-b128-ep120-1231-5s6-5",
+    "start_cmd":"sh /apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/multi_start.sh",
     "image_full_name": "mirrors.tencent.com/luxiferchen/tlinux2.2-python3.8-torch1.7.1-cuda11.0:nowandb",
-    "start_cmd": "/apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/multi_start.sh",
     "GPUName": "V100"
 }
