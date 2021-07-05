@@ -7,5 +7,6 @@
     "readable_name":"single-test-cmd",
     "cuda_version": "11.0",
     "image_full_name": "mirrors.tencent.com/luxiferchen/tlinux2.2-python3.8-torch1.7.1-cuda11.0:nowandb",
-    "GPUName": "V100"
+    "GPUName": "V100",
+    "start_cmd":"/apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/start.sh"
 }
