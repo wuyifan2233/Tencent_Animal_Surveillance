@@ -6,8 +6,8 @@ python train.py \
 --project /apdcephfs/private_luxiferchen/Tencent_WWF/training_projects/top23-p1234-p1/ \
 --name b64-ep120-img640-s-wandb \
 --img-size 640 \
---epochs 120 \
 --weights '' \
+--epochs 120 \
 --batch 64 \
 --cache \
 
