@@ -7,6 +7,7 @@ python train.py \
 --name b64-ep120-img640-s-wandb \
 --img-size 640 \
 --epochs 120 \
+--weights '' \
 --batch 64 \
 --cache \
 
