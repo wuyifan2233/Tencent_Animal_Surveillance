@@ -4,10 +4,10 @@ python train.py \
 --hyp /apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/data/hyps/hyp.scratch.yaml \
 --cfg /apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/models/yolov5s.yaml \
 --project /apdcephfs/private_luxiferchen/Tencent_WWF/training_projects/top23-p1234-p1/ \
---name b64-ep120-img640-s-wandb \
+--name b32-ep120-img640-s-wandb \
 --img-size 640 \
 --weights '' \
 --epochs 120 \
---batch 64 \
+--batch 32 \
 --cache \
 
