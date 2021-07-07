@@ -9,5 +9,5 @@ python train.py \
 --weights '' \
 --epochs 120 \
 --batch 32 \
---cache \ > .txt
+--cache \ > /apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/log_txt/.txt
 
