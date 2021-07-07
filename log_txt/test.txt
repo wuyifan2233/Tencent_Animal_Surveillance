@@ -1,0 +1,27 @@
+[34m[1mtest: [0mdata=/apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/configs/top23-p1234-p1.yaml, weights=['/apdcephfs/private_luxiferchen/Tencent_WWF/training_projects/top23-p1234-p1/b16-ep120-img640-s-wandb2/weights/best.pt'], batch_size=32, imgsz=640, conf_thres=0.001, iou_thres=0.5, task=val, device=, single_cls=False, augment=False, verbose=False, save_txt=False, save_hybrid=False, save_conf=False, save_json=False, project=/apdcephfs/private_luxiferchen/Tencent_WWF/test_projects/top23-p1234-p1-test/, name=b16-ep120-test, exist_ok=False, half=False
+                 all       4591      10159      0.879      0.692      0.774      0.516
+           baichunlu       4591        891      0.854      0.525      0.676      0.345
+               chihu       4591        163      0.908      0.264      0.311      0.175
+     gaoyuanshanchun       4591        599       0.81      0.467      0.541      0.275
+           gaoyuantu       4591        189      0.954      0.534      0.696      0.452
+             lanmaji       4591       1100      0.799      0.564       0.64      0.293
+                  ma       4591        623      0.975      0.612      0.731      0.576
+                malu       4591        447       0.97       0.72      0.878      0.608
+              maoniu       4591        781      0.889      0.544      0.666      0.457
+               mashe       4591        406      0.954      0.766      0.898       0.66
+              person       4591        504      0.874      0.677      0.792       0.47
+              xuebao       4591        360      0.943      0.597       0.82      0.515
+                yang       4591       1978      0.896      0.577      0.692      0.402
+             yanyang       4591       1561      0.917      0.581      0.668      0.336
+              zanghu       4591        201      0.602      0.706      0.609      0.362
+                chai       4591         13      0.733          1      0.982      0.722
+               hanta       4591         32      0.989      0.906      0.932      0.647
+          huangmomao       4591         17       0.91      0.941      0.946      0.625
+                lang       4591         79      0.814      0.772      0.832      0.555
+                  lv       4591         26      0.944      0.654       0.86      0.589
+                 pao       4591        122       0.68      0.959       0.91      0.776
+               sheli       4591         53       0.94      0.906      0.961      0.743
+             shidiao       4591          4          1      0.998      0.995      0.609
+           zongxiong       4591         10      0.866      0.651      0.764      0.677
+Speed: 0.1ms pre-process, 1.9ms inference, 1.0ms NMS per image at shape (32, 3, 640, 640)
+Results saved to /apdcephfs/private_luxiferchen/Tencent_WWF/test_projects/top23-p1234-p1-test/b16-ep120-test5
