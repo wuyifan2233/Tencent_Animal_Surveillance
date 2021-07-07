@@ -9,5 +9,5 @@ python train.py \
 --weights '' \
 --epochs 120 \
 --batch 64 \
---cache \ > /apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/log_txt/b64-ep120-img640-s-wandb-v.txt
+--cache > /apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/log_txt/b64-ep120-img640-s-wandb-v.txt
 
