@@ -3,8 +3,8 @@ python -m torch.distributed.launch --nproc_per_node 8 train.py \
 --data /apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/configs/top23-p1234-p1.yaml \
 --hyp /apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/data/hyps/hyp.scratch-p6.yaml \
 --cfg /apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/models/hub/yolov5s6.yaml \
---project /apdcephfs/private_luxiferchen/Tencent_WWF/training_projects/top23-p1234-p1/ \
---name b64-ep120-img640-s-wandb-notqdm \
+--project /apdcephfs/private_luxiferchen/Tencent_WWF/training_projects/p1234-p1-multi/ \
+--name test-test \
 --img-size 1280 \
 --weights '' \
 --epochs 5 \
