@@ -1,4 +1,4 @@
-[34m[1mtest: [0mdata=/apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/configs/top23-p1234-p1.yaml, weights=['/apdcephfs/private_luxiferchen/Tencent_WWF/training_projects/top23-p1234-p1/b16-ep120-img640-s-wandb2/weights/best.pt'], batch_size=32, imgsz=640, conf_thres=0.001, iou_thres=0.5, task=val, device=, single_cls=False, augment=False, verbose=False, save_txt=False, save_hybrid=False, save_conf=False, save_json=False, project=/apdcephfs/private_luxiferchen/Tencent_WWF/test_projects/top23-p1234-p1-test/, name=b16-ep120-test, exist_ok=False, half=False
+[34m[1mtest: [0mdata=/apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/configs/top23-p1234-p1.yaml, weights=['/apdcephfs/private_luxiferchen/Tencent_WWF/training_projects/top23-p1234-p1/b16-ep120-img640-s-wandb2/weights/best.pt'], batch_size=16, imgsz=640, conf_thres=0.001, iou_thres=0.5, task=val, device=, single_cls=False, augment=False, verbose=False, save_txt=False, save_hybrid=False, save_conf=False, save_json=False, project=/apdcephfs/private_luxiferchen/Tencent_WWF/test_projects/top23-p1234-p1-test/, name=b16-ep120-test, exist_ok=False, half=False
                  all       4591      10159      0.879      0.692      0.774      0.516
            baichunlu       4591        891      0.854      0.525      0.676      0.345
                chihu       4591        163      0.908      0.264      0.311      0.175
@@ -23,5 +23,5 @@
                sheli       4591         53       0.94      0.906      0.961      0.743
              shidiao       4591          4          1      0.998      0.995      0.609
            zongxiong       4591         10      0.866      0.651      0.764      0.677
-Speed: 0.1ms pre-process, 1.9ms inference, 1.0ms NMS per image at shape (32, 3, 640, 640)
-Results saved to /apdcephfs/private_luxiferchen/Tencent_WWF/test_projects/top23-p1234-p1-test/b16-ep120-test5
+Speed: 0.2ms pre-process, 1.8ms inference, 1.1ms NMS per image at shape (16, 3, 640, 640)
+Results saved to /apdcephfs/private_luxiferchen/Tencent_WWF/test_projects/top23-p1234-p1-test/b16-ep120-test7
