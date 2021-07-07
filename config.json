@@ -5,8 +5,8 @@
     "host_num": 1,
     "host_gpu_num": 1,
     "cuda_version": "11.0",
-    "task_flag":"b64-ep120-img640-s-wandb-p1234-p1-v",
-    "start_cmd":"sh /apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/start-v.sh",
+    "task_flag":"b64-ep120-img640-s-wandb-p1234-p1-new",
+    "start_cmd":"sh /apdcephfs/private_luxiferchen/Tencent_WWF/Tencent_Animal_Surveillance/start.sh",
     "image_full_name": "mirrors.tencent.com/luxiferchen/tlinux2.2-python3.8-torch1.7.1-cuda11.0:vpn2",
     "GPUName": "V100"
 }
