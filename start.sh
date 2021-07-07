@@ -9,5 +9,5 @@ python train.py \
 --weights '' \
 --epochs 120 \
 --batch 32 \
---cache \
+--cache \ > xxx.txt
 
